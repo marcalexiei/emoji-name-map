@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "es2020",
+    "module": "node18",
+    "types": [],
+    "noEmit": true
+  },
+  "include": ["lib/**/*.d.ts", "test/**/*.ts"]
+}

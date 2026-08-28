@@ -3,12 +3,14 @@
   "version": "2.0.3",
   "description": "Name to unicode emoji mapping.",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "directories": {
     "example": "example"
   },
   "scripts": {
     "data:build": "node data/build.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "types:check": "tsc --project tsconfig.json"
   },
   "keywords": [
     "emoji",
@@ -47,6 +49,7 @@
     "bloggify/"
   ],
   "devDependencies": {
-    "emoji-datasource": "^7.0.2"
+    "emoji-datasource": "^7.0.2",
+    "typescript": "^7.0.2"
   }
 }
